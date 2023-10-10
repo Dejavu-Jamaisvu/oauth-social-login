@@ -1,3 +1,12 @@
+#keycloak:
+#    realm: Oauth2
+#    auth-server-url: https://sdevtest.genians.kr:30004/realms/Oauth2
+#    resource: oauth2-client-app
+#    bearer-only: true
+#    ssl-required: external
+#    principal-attribute: subject
+#    use-resource-role-mappings: true
+
 server:
     port: 8081
 spring:
